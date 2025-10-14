@@ -2604,7 +2604,115 @@ body {
 }
 
 
+@media (max-width: 768px) {
+    .nav-bar-row {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        top: 1rem;
+        padding: 0 1rem;
+        gap: 1rem;
+        position: absolute;
+    }
 
+    .nav-bar-logo {
+        position: static;
+        margin: 0;
+        order: 1;
+    }
+
+    .nav-bar-logo img {
+        width: 45px;
+    }
+
+    .nav-bar-actions {
+        display: contents; /* This is the key change */
+    }
+
+    .glass-navbar {
+        order: 3;
+        margin: 0.5rem auto 0;
+        width: 100%;
+        justify-content: center;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .glass-navbar ul {
+        width: 100%;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    
+    .glass-navbar li {
+        font-size: 0.9rem;
+    }
+
+    /* Target the buttons directly for ordering since their parent is gone */
+    .nav-bar-btn,
+    .nav-bar-leetcode {
+        order: 2;
+    }
+
+    .nav-bar-btn .linkedin-btn,
+    .nav-bar-leetcode .leetcode-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav-bar-btn .btn-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav-bar-leetcode .leetcode-btn img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .hero-wrapper {
+        margin-top: 5rem;
+    }
+    .hero span {
+        font-size: 2.8rem;
+    }
+    .hero {
+        font-size: 1.2rem;
+    }
+    .icon-cycle, .icon-bg {
+        width: 50px;
+        height: 50px;
+    }
+    .icon-bg svg {
+        width: 32px;
+        height: 32px;
+    }
+    .hero-2 {
+        margin-top: 2rem;
+        padding: 0 20px;
+    }
+    .hero-2 .text {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    .button {
+        margin-top: 2.5rem;
+    }
+    .button button {
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem;
+    }
+    #left-interactive-image,
+    #right-interactive-image {
+        display: none;
+    }
+    .terminal-window {
+        width: 95%;
+        max-width: 95%;
+    }
+}
 
 
 
