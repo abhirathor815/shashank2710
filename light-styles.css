@@ -2048,6 +2048,7 @@ body {
 
     .get-to-work-section .section-heading {
         font-size: 3rem;
+        
     }
 
     .featured-content-wrapper {
@@ -2187,12 +2188,14 @@ body {
     .get-to-work-section .section-heading {
         font-size: 2.5rem;
         margin-bottom: 1.5rem;
+        color:wheat;
     }
 
     .get-to-work-section .description-text,
     .get-to-work-section .secondary-text {
         font-size: 0.95rem;
         padding: 0 1rem;
+        color:wheat;
     }
 
     .get-to-work-section .get-started-button {
