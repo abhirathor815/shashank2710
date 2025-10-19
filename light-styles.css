@@ -2749,9 +2749,9 @@ body {
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.theme-toggle-button:hover {
+/* .theme-toggle-button:hover {
     background-color: rgba(128, 128, 128, 0.1);
-}
+} */
 
 .theme-toggle-button svg {
     position: absolute;
