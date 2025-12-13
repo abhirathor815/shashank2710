@@ -2325,26 +2325,7 @@ body {
     .innovate-content .cta-button {
         padding: 14px 28px;
     }
-
-    .music-player {
-        width: calc(100% - 30px);
-        max-width: 260px;
-        padding: 12px;
-    }
-
-    .album-art {
-        width: 120px;
-        height: 120px;
-    }
-
-    .song-title {
-        font-size: 0.95rem;
-    }
-
-    .song-artist {
-        font-size: 0.8rem;
-    }
-
+    
     .site-footer-card {
         padding: 2rem 1.5rem;
     }
@@ -2432,10 +2413,6 @@ body {
     .footer-column h3,
     .footer-column a {
         font-size: 0.85rem;
-    }
-
-    .music-player {
-        width: 90%;
     }
 
     .credit-footer {
