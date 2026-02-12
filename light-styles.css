@@ -988,7 +988,7 @@ body {
     z-index: 1;
     width: 100%;
     height: 100%;
-    background-image: url(https://phg7ih4ayg.ucarecd.net/25cca70d-0d2a-499a-b765-1e94b5c7748f/Gemini_Generated_Image_qqvid9qqvid9qqvi.png);
+    background-image: url(img/card-bg.png);
     opacity: 1;
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
@@ -1583,7 +1583,7 @@ body {
 
 .final-section-container {
     /* background-color: #e9ecef; */
-    background-image: url(https://phg7ih4ayg.ucarecd.net/9aea7e40-8c6c-42f2-bb89-7a67811860c2/b2bg.svg);
+    background-image: url(img/last-bg.svg);
     background-size: cover;
     background-position: center top;
     min-height: 100vh;
